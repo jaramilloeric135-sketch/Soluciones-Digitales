@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Almacenamiento - Ventas en Línea</title>
+    <link rel="stylesheet" href="productos.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>VENTAS EN LÍNEA</h1>
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="#">Ventas en línea</a></li>
+                <li><a href="#">Ventas por catálogo</a></li>
+                <li><a href="#">Venta por delivery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Sección de Catálogo de Productos -->
+        <section class="catalog-section">
+            <h2>Catálogo de Productos</h2>
+            <div class="table-responsive">
+                <table class="product-table">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Imagen</th>
+                            <th>Producto</th>
+                            <th>Marca</th>
+                            <th>Capacidad</th>
+                            <th>Tipo</th>
+                            <th>Precio</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A001</td>
+                            <td><img src="disco/disco001.webp" alt="Disco Duro A001" class="product-img"></td>
+                            <td class="prod-name">Disco duro XYZ</td>
+                            <td>Western Digital</td>
+                            <td>1 TB</td>
+                            <td>SSD</td>
+                            <td class="prod-price" data-price="160">S/. 160.00</td>
+                            <td><button class="btn-add" data-id="A001">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A002</td>
+                            <td><img src="disco/disco002.webp" alt="Disco Duro A002" class="product-img"></td>
+                            <td class="prod-name">Disco duro MNP</td>
+                            <td>Seagate</td>
+                            <td>2 TB</td>
+                            <td>SSD</td>
+                            <td class="prod-price" data-price="180">S/. 180.00</td>
+                            <td><button class="btn-add" data-id="A002">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A003</td>
+                            <td><img src="disco/disco003.jpg" alt="Disco Duro A003" class="product-img"></td>
+                            <td class="prod-name">Disco duro Standard</td>
+                            <td>Kingston</td>
+                            <td>1 TB</td>
+                            <td>HDD</td>
+                            <td class="prod-price" data-price="150">S/. 150.00</td>
+                            <td><button class="btn-add" data-id="A003">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A004</td>
+                            <td><img src="disco/disco004.jpg" alt="Disco Duro A004" class="product-img"></td>
+                            <td class="prod-name">Disco duro Ultra</td>
+                            <td>Samsung</td>
+                            <td>2 TB</td>
+                            <td>SSD</td>
+                            <td class="prod-price" data-price="190">S/. 190.00</td>
+                            <td><button class="btn-add" data-id="A004">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A005</td>
+                            <td><img src="disco/disco005.jpg" alt="Disco Duro A005" class="product-img"></td>
+                            <td class="prod-name">Disco duro Pro</td>
+                            <td>Corsair</td>
+                            <td>4 TB</td>
+                            <td>SSD</td>
+                            <td class="prod-price" data-price="130">S/. 130.00</td>
+                            <td><button class="btn-add" data-id="A005">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A006</td>
+                            <td><img src="disco/disco006.jpg" alt="Disco Duro A006" class="product-img"></td>
+                            <td class="prod-name">Disco duro Black</td>
+                            <td>Western Digital</td>
+                            <td>4 TB</td>
+                            <td>SSD</td>
+                            <td class="prod-price" data-price="500">S/. 500.00</td>
+                            <td><button class="btn-add" data-id="A006">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A007</td>
+                            <td><img src="disco/disco007.jpg" alt="Disco Duro A007" class="product-img"></td>
+                            <td class="prod-name">Disco duro Barracuda</td>
+                            <td>Seagate</td>
+                            <td>7 TB</td>
+                            <td>SSD</td>
+                            <td class="prod-price" data-price="600">S/. 600.00</td>
+                            <td><button class="btn-add" data-id="A007">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A008</td>
+                            <td><img src="disco/disco008.jpg" alt="Disco Duro A008" class="product-img"></td>
+                            <td class="prod-name">Disco duro Server</td>
+                            <td>Kingston</td>
+                            <td>12 TB</td>
+                            <td>HDD</td>
+                            <td class="prod-price" data-price="1200">S/. 1200.00</td>
+                            <td><button class="btn-add" data-id="A008">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A009</td>
+                            <td><img src="disco/disco009.jpg" alt="Disco Duro A009" class="product-img"></td>
+                            <td class="prod-name">Disco duro EVO</td>
+                            <td>Samsung</td>
+                            <td>14 TB</td>
+                            <td>SSD</td>
+                            <td class="prod-price" data-price="1400">S/. 1400.00</td>
+                            <td><button class="btn-add" data-id="A009">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>A010</td>
+                            <td><img src="disco/disco10.jpg" alt="Disco Duro A010" class="product-img"></td>
+                            <td class="prod-name">Disco duro Extreme</td>
+                            <td>Corsair</td>
+                            <td>16 TB</td>
+                            <td>SSD</td>
+                            <td class="prod-price" data-price="2000">S/. 2000.00</td>
+                            <td><button class="btn-add" data-id="A010">Agregar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sección del Carrito de Compras -->
+        <aside class="cart-section">
+            <h2>Carrito de Compras</h2>
+            <div id="cart-items" class="cart-items">
+                <p class="empty-cart-msg">El carrito está vacío.</p>
+            </div>
+            
+            <div class="cart-summary">
+                <p>Total: <strong id="cart-total">S/. 0.00</strong></p>
+                <button id="btn-checkout" class="btn-checkout" disabled>Procesar Compra</button>
+                <button id="btn-clear" class="btn-clear">Vaciar Carrito</button>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; Todos los derechos reservados - Empresa de Almacenamiento</p>
+    </footer>
+
+    <script src="productos.js"></script>
+</body>
+</html>
